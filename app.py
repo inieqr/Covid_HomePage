@@ -28,9 +28,9 @@ def get_st_button_a_tag(url_link, button_name):
     width: auto;
     userSelect: none;
     backgroundColor: #FFFFFF;
-    border: 1px solid rgba(49, 51, 63, 0.2);">{CLick To Predict}</button></a>
+    border: 1px solid rgba(49, 51, 63, 0.2);">{Predict}</button></a>
     '''
-st.markdown(get_st_button_a_tag('https://predictcovid.streamlit.app/', 'Click To Predict'), unsafe_allow_html=True)
+st.markdown(get_st_button_a_tag('https://predictcovid.streamlit.app/', 'Predict'), unsafe_allow_html=True)
 
 # Display the page
 st.show()
