@@ -26,8 +26,9 @@ with col1:
    st.write("Through respiratory droplets produced when an infected person coughs, sneezes, or talks")
    
 with col2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
+   st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Human Contact</h4>", unsafe_allow_html=True)
+   st.image("https://contact-centres.com/wp-content/uploads/2018/05/human-touch-image-may-2018.jpg")
+   st.write("Any person who was within 6 feet of an infected person for at least 15 minutes, starting from 2 days before illness")
    
 
 
