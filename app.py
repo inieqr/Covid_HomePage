@@ -60,9 +60,9 @@ st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19
 
 # Add buttons
 col1, col2 = st.beta_columns(2)
- with col1:
+with col1:
     st.button('Know Your Covid-19 Status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
- with col2:
+with col2:
     st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
