@@ -16,7 +16,7 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without
 def open_page(url):
     open_script= """
         <script type="text/javascript">
-            window.open('%s', '_blank').focus();
+            window.open('%s', '_self').focus();
         </script>
     """ % (url)
     html(open_script)
