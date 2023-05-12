@@ -57,7 +57,7 @@ def open_page(url):
 
 st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19 status today with our machine learning model. Click 'Check my status' to know your COVID 19 status and 'Learn More' to know more about COVID 19.</h5>", unsafe_allow_html=True)
 
-st.button('Open link', on_click=open_page, args=('https://predictcovid.streamlit.app/'))
+st.button('Check my status', on_click=open_page, args=('https://predictcovid.streamlit.app/'))
 st.button('Learn More', on_click=open_page, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
