@@ -30,13 +30,15 @@ with col2:
    st.image("https://contact-centres.com/wp-content/uploads/2018/05/human-touch-image-may-2018.jpg")
    st.write("Any person who was within 6 feet of an infected person for at least 15 minutes, starting from 2 days before illness")
    
-
-
 with col3:
    st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Contaminated Surfaces</h4>", unsafe_allow_html=True)
    st.image("https://static01.nyt.com/images/2020/05/27/well/well-surfaces-door/well-surfaces-door-mobileMasterAt3x-v3.jpg?quality=75&auto=webp&disable=upscale&width=1200")
    st.write("Touching a surface or object on which there is a virus, and then touching your own mouth, nose, or your eyes")
-   
+
+st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Symptoms</h1>", unsafe_allow_html=True)
+st.write("COVID-19 symptoms are varied, but usually include fever and cough. Some people without symptoms may spread the virus. The most common symptoms in humans include:")
+st.image("https://images.ctfassets.net/pxcfulgsd9e2/articleImage160692/bab314f288123a1eedf3759bd17d0225/Top-5-Symptoms-of-COVID-19-HN2387-iStock-1217199413-Sized.png?f=top&fit=fill&fm=webp&h=450&q=35&w=800")
+
 # Add a button
 def open_page(url):
     open_script= """
