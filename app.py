@@ -21,7 +21,14 @@ def open_page(url):
     """ % (url)
     html(open_script)
 
-st.button('Open link', on_click=open_page, args=('https://predictcovid.streamlit.app/',))
+st.button(
+    'Open link',
+    on_click=open_page,
+    args=('https://predictcovid.streamlit.app/',),
+    css='background-color: red; color: white; border-radius: 5px;'
+)
+
+# st.button('Open link', on_click=open_page, args=('https://predictcovid.streamlit.app/',))
 
 # # Display the page
 # st.show()
