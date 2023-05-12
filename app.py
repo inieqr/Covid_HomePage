@@ -27,7 +27,14 @@ def open_page(url):
     """ % (url)
     html(open_script)
 
-st.button('Open link', on_click=open_page, args=('https://predictcovid.streamlit.app/'))
+# Add buttons
+col1, col2 = st.beta_columns(2)
+with col1:
+    st.button('Know Your Covid-19 Status', on_click=open_page, args=('https://predictcovid.streamlit.app/',))
+with col2:
+    st.button('Learn More', on_click=open_page, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
+    
+# st.button('Open link', on_click=open_page, args=('https://predictcovid.streamlit.app/'))
 
 # # Display the page
 # st.show()
