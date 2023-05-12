@@ -34,7 +34,7 @@ with col2:
 
 with col3:
    st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Contaminated Surfaces</h4>", unsafe_allow_html=True)
-   st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNEjDvWJXZQ4Bp8tHxoUFM0GqHN0ha7P4AA&usqp=CAU)
+   st.image("https://0-i2--prod-mirror-co-uk-0.cdn.ampproject.org/ii/w680/s/i2-prod.mirror.co.uk/incoming/article21620729.ece/ALTERNATES/s615b/2_Close-Up-Of-Hand-Holding-Doorknob.jpg)
    st.write("Touching a surface or object on which there is a virus, and then touching your own mouth, nose, or your eyes")
    
 # Add a button
