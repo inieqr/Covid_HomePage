@@ -21,9 +21,8 @@ st.write("COVID-19 is spread primarily when people are in close contact and one 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>Air Transmission</h1>", unsafe_allow_html=True)
-   st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healtheuropa.com%2Fpreventing-airborne-transmission-of-covid-19%2F104515%2F&psig=AOvVaw0mJVemHih4Sy_tmaCuRh8_&ust=1683975992442000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiDzsnR7_4CFQAAAAAdAAAAABAE")
-   st.write("Through respiratory droplets produced when an infected person coughs, sneezes, or talks")
+   st.image("air_trans.png")
+.png
 
 with col2:
    st.header("A dog")
