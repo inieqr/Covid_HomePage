@@ -66,8 +66,8 @@ st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19
 #    st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
-st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/'))
-st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19'))
+st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
+st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
 # # Display the page
