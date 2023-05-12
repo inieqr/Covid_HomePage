@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the page title
-with st.container():
+with st.container(align="center"):
   st.title("COVID-19 Prediction App")
 
 # Add a picture
