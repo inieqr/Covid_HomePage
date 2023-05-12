@@ -39,14 +39,23 @@ st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Symptoms</h1>", uns
 st.write("COVID-19 symptoms are varied, but usually include fever and cough. Some people without symptoms may spread the virus. The most common symptoms in humans include:")
 st.image("https://images.ctfassets.net/pxcfulgsd9e2/articleImage160692/bab314f288123a1eedf3759bd17d0225/Top-5-Symptoms-of-COVID-19-HN2387-iStock-1217199413-Sized.png?f=top&fit=fill&fm=webp&h=450&q=35&w=800")
 
-# Add a button
-def open_page(url):
+# Add buttons
+def open_page1(url):
     open_script= """
         <script type="text/javascript">
             window.open('%s', '_blank').focus();
         </script>
     """ % (url)
     html(open_script)
+
+def open_page2(url):
+    open_script= """
+        <script type="text/javascript">
+            window.open('%s', '_blank').focus();
+        </script>
+    """ % (url)
+    html(open_script)
+   
 
 # Add buttons
 # col1, col2 = st.beta_columns(2)
@@ -57,8 +66,8 @@ def open_page(url):
 
 st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19 status today with our machine learning model. Click 'Check my status' to know your COVID 19 status and 'Learn More' to know more about COVID 19.</h5>", unsafe_allow_html=True)
 
-st.button('Check my status', on_click=open_page, args=('https://predictcovid.streamlit.app/'))
-st.button('Learn More', on_click=open_page, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
+st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/'))
+st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19'))
 
 
 # # Display the page
