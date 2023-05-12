@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set the page title
 with st.container():
-  st.title("COVID-19 Prediction App")
+  st.title("                                      COVID-19 Prediction App")
 
 # Add a picture
 st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png")
