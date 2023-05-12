@@ -11,7 +11,7 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without
 
 # Add a button
 # st.button("Click here to go to Google", href="https://www.google.com")
-def get_st_button_a_tag(https://predictcovid.streamlit.app/, Click To Predict):
+def get_st_button_a_tag("https://predictcovid.streamlit.app/", Click To Predict):
     """
     generate html a tag
     :param url_link:
