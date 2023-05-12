@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Set the page title
-st.title("My Page")
+st.title("COVID-19 Prediction App")
 
 # Add a picture
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Google_Logo.svg/1200px-Google_Logo.svg.png")
+st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png")
 
 # Add a button
 st.button("Click here to go to Google", href="https://www.google.com")
