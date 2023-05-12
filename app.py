@@ -59,15 +59,15 @@ def open_page2(url):
 st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19 status today with our machine learning model. Click 'Check my status' to know your COVID 19 status and 'Learn More' to know more about COVID 19.</h5>", unsafe_allow_html=True)
 
 # Add buttons
-col1, col2 = st.beta_columns(2)
-with col1:
-    st.button('Know Your Covid-19 Status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
-with col2:
-    st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
+#col1, col2 = st.beta_columns(2)
+#with col1:
+#    st.button('Know Your Covid-19 Status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
+#with col2:
+#    st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
-# st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/'))
-# st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19'))
+st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/'))
+st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19'))
 
 
 # # Display the page
