@@ -33,9 +33,10 @@ with col2:
 
 
 with col3:
-   st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
-
+   st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Contaminated Surfaces</h4>", unsafe_allow_html=True)
+   st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNEjDvWJXZQ4Bp8tHxoUFM0GqHN0ha7P4AA&usqp=CAU)
+   st.write("Touching a surface or object on which there is a virus, and then touching your own mouth, nose, or your eyes")
+   
 # Add a button
 def open_page(url):
     open_script= """
