@@ -18,6 +18,20 @@ st.write("Coronaviruses are a large family of viruses that are known to cause di
 st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Contagion</h1>", unsafe_allow_html=True)
 st.write("COVID-19 is spread primarily when people are in close contact and one person inhales small drops produced by an infected person when coughing, sneezing or talking.")
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("A cat")
+   st.image("https://static.streamlit.io/examples/cat.jpg")
+
+with col2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
+
 # Add a button
 def open_page(url):
     open_script= """
