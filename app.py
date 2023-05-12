@@ -21,6 +21,7 @@ st.write("COVID-19 is spread primarily when people are in close contact and one 
 col1, col2, col3 = st.columns(3)
 
 with col1:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>Air Transmission</h3>", unsafe_allow_html=True)
    st.image("https://bloximages.chicago2.vip.townnews.com/fox23.com/content/tncms/assets/v3/editorial/6/34/634b7242-5d49-5093-94c3-bf7f084e7efd/63e62776a4697.image.jpg?resize=736%2C474")
 
 with col2:
