@@ -23,10 +23,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>Air Transmission</h1>", unsafe_allow_html=True)
    st.image("https://static.streamlit.io/examples/cat.jpg")
+   st.write("Through respiratory droplets produced when an infected person coughs, sneezes, or talks")
 
 with col2:
    st.header("A dog")
    st.image("https://static.streamlit.io/examples/dog.jpg")
+   
+
 
 with col3:
    st.header("An owl")
