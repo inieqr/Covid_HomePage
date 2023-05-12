@@ -23,5 +23,5 @@ def open_page(url):
 
 st.button('Open link', on_click=open_page, args=('https://streamlit.io',))
 
-# Display the page
-st.show()
+# # Display the page
+# st.show()
