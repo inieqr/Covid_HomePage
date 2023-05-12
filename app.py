@@ -21,7 +21,7 @@ st.write("COVID-19 is spread primarily when people are in close contact and one 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("A cat")
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>Air Transmission</h1>", unsafe_allow_html=True)
    st.image("https://static.streamlit.io/examples/cat.jpg")
 
 with col2:
