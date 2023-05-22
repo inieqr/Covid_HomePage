@@ -1,5 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
+import webbrowser
+
 
 st.markdown("<h1 style='text-align: center; color: #474646;'>COVID-19 Prediction App</h1>", unsafe_allow_html=True)
 
@@ -17,6 +19,12 @@ st.write("Coronaviruses are a large family of viruses that are known to cause di
 
 st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Contagion</h1>", unsafe_allow_html=True)
 st.write("COVID-19 is spread primarily when people are in close contact and one person inhales small drops produced by an infected person when coughing, sneezing or talking.")
+
+def open_support_ticket():
+    email_link = "mailto:servicesdesk@evilcorp.com"
+    webbrowser.open(email_link)
+
+st.button("Contact us!", on_click=open_support_ticket)
 
 col1, col2, col3 = st.columns(3)
 
