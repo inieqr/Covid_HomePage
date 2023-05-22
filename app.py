@@ -48,10 +48,10 @@ with col1:
 with col2:
     pass
 with col4:
-    pass
+    center_button = st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
 with col5:
     pass
-with col3 :
+with col3:
     center_button = st.button('Button')
 
 
