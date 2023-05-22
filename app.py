@@ -41,6 +41,20 @@ st.markdown("<h1 style='text-align: center; color: red;'>Covid-19 Prediction Sys
 # st.write("COVID-19 symptoms are varied, but usually include fever and cough. Some people without symptoms may spread the virus. The most common symptoms in humans include:")
 # st.image("https://images.ctfassets.net/pxcfulgsd9e2/articleImage160692/bab314f288123a1eedf3759bd17d0225/Top-5-Symptoms-of-COVID-19-HN2387-iStock-1217199413-Sized.png?f=top&fit=fill&fm=webp&h=450&q=35&w=800")
 
+col1, col2, col3 , col4, col5 = st.beta_columns(5)
+
+with col1:
+    pass
+with col2:
+    pass
+with col4:
+    pass
+with col5:
+    pass
+with col3 :
+    center_button = st.button('Button')
+
+
 # Add buttons
 def open_page1(url):
     open_script= """
