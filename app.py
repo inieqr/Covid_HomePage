@@ -3,14 +3,15 @@ from streamlit.components.v1 import html
 import webbrowser
 
 
-st.markdown("<h1 style='text-align: center; color: #474646;'>COVID-19 Prediction App</h1>", unsafe_allow_html=True)
+# st.markdown("<h1 style='text-align: center; color: #474646;'>COVID-19 Prediction App</h1>", unsafe_allow_html=True)
 
 # # Set the page title
 # with st.container():
 #   st.title("COVID-19 Prediction App")
 
 # Add a picture
-st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png")
+# st.image("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png")
+st.image("https://fscluster.org/sites/default/files/styles/core-group-featured-image/public/banner-696x321.png?itok=l7uFday9")
 
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
