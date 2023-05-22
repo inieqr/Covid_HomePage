@@ -52,7 +52,7 @@ with col4:
 with col5:
     pass
 with col3 :
-    center_button = st.button('Button')
+    center_button = st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
 
 
 # Add buttons
